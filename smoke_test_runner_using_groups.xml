@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Presta shop automation smoke tests" verbose="5">
+		
+		<test name="Search tests">
+			<groups>
+				<run>
+					<include name="smoke"></include>
+				</run>
+			</groups>
+			<classes>
+				<class name="com.prestashop.tests.search.SearchTest"></class>
+				<class name="com.prestashop.tests.registration.LoginTest"></class>
+			</classes>
+		</test>
+</suite>

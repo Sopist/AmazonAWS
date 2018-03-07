@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Presta shop automation smoke tests]">
+  <test verbose="5" name="Search tests(failed)">
+    <classes>
+      <class name="com.prestashop.tests.search.SearchTest">
+        <methods>
+          <include name="productDetailsTest"/>
+          <include name="searchTest"/>
+          <include name="seyUp"/>
+          <include name="anotherTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.search.SearchTest -->
+      <class name="com.prestashop.tests.registration.LoginTest">
+        <methods>
+          <include name="seyUp"/>
+          <include name="tearDown"/>
+          <include name="positiveLogin"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.registration.LoginTest -->
+    </classes>
+  </test> <!-- Search tests(failed) -->
+</suite> <!-- Failed suite [Presta shop automation smoke tests] -->

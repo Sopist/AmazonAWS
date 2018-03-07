@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2856" started-at="2018-03-07T02:55:17Z" finished-at="2018-03-07T02:55:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2856" started-at="2018-03-07T02:55:17Z" finished-at="2018-03-07T02:55:20Z">
+      <class name="com.amazonaws.tests.AwsCalculatorTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.amazonaws.tests.AwsCalculatorTest@65987993]" name="setUp" is-config="true" duration-ms="1586" started-at="2018-03-06T21:55:17Z" finished-at="2018-03-06T21:55:19Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="defaultMonthlyBillTest()[pri:0, instance:com.amazonaws.tests.AwsCalculatorTest@65987993]" name="defaultMonthlyBillTest" duration-ms="910" started-at="2018-03-06T21:55:19Z" description="Monthly bill should be $0.00 by default" finished-at="2018-03-06T21:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultMonthlyBillTest -->
+        <test-method status="PASS" signature="addEC2Test()[pri:1, instance:com.amazonaws.tests.AwsCalculatorTest@65987993]" name="addEC2Test" duration-ms="352" started-at="2018-03-06T21:55:20Z" finished-at="2018-03-06T21:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEC2Test -->
+      </class> <!-- com.amazonaws.tests.AwsCalculatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

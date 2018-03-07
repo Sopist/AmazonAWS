@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Presta shop automation tests]">
+  <test verbose="3" name="Smoke Search tests using firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.prestashop.tests.search.SearchTest">
+        <methods>
+          <include name="productDetailsTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.search.SearchTest -->
+    </classes>
+  </test> <!-- Smoke Search tests using firefox(failed) -->
+  <test verbose="3" name="Smoke Search tests using Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.prestashop.tests.search.SearchTest">
+        <methods>
+          <include name="productDetailsTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.prestashop.tests.search.SearchTest -->
+    </classes>
+  </test> <!-- Smoke Search tests using Chrome(failed) -->
+</suite> <!-- Failed suite [Presta shop automation tests] -->

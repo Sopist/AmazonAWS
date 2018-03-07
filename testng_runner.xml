@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Presta shop automation tests" verbose="5" parallel="tests" thread-count="2">
+	
+		<test name="Search tests using firefox">
+			<parameter name="browser" value="firefox"></parameter>
+			<classes>
+				<class name="com.prestashop.tests.search.SearchTest">
+					<methods>
+						<include name="searchTest"></include>
+					</methods>
+				</class>
+				<class name="com.prestashop.tests.registration.LoginTest"></class>
+			</classes>
+		</test>
+		
+		<test name="Search tests using Chrome">
+			<parameter name="browser" value="chrome"></parameter>
+			<classes>
+				<class name="com.prestashop.tests.search.SearchTest">
+					<methods>
+						<include name="searchTest"></include>
+					</methods>
+				</class>
+				<class name="com.prestashop.tests.registration.LoginTest"></class>
+			</classes>
+		</test>
+
+	
+</suite>
